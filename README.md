@@ -103,3 +103,10 @@ hero: {
 ## ページタイトル・説明文
 
 検索結果に出る `<title>` と `<meta name="description">` は `index.html` の `<head>` にあります（英語表示時のタブ名は `config.js` の `ui.pageTitle`）。
+
+## 公開サイト（GitHub Pages）の更新
+
+- 公開URL：https://hifumi1106123-tech.github.io/poto-salon/
+- 変更を GitHub の `main` に送ると、1〜2分で公開サイトに反映されます。
+- CSS・JS を変更したときは、`index.html` の `?v=` の後ろの番号も変えてください。番号を変えないと、閲覧者のブラウザに古いファイルが最大10分ほど残ることがあります。
+- 本番写真に差し替えたら、`index.html` の noindex の行を削除すると検索結果に出るようになります。
