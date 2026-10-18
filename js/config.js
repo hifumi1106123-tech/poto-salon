@@ -18,7 +18,7 @@ window.SITE_CONFIG = {
   // ===== 写真 =====
   // src が空のときは仮画像枠を表示します。推奨サイズは README.md を参照。
   /*
-   * ★ 現在の写真はすべて仮のストック写真（Unsplash・無料ライセンス。images/stock/ に保存）です。
+   * ★ images/salon/ は実際の店舗写真、images/stock/ は仮のストック写真（Unsplash・無料ライセンス）です。
    *   川平湾やPOTOの実際の写真ではないため、公開前に必ず本番の写真へ差し替えてください。
    *   差し替えたら alt（写真の説明）も実際の内容に合わせて書き換えます。
    *   例: src: "images/hero-kabira.jpg", alt: { ja: "石垣島・川平湾の海", en: "The sea at Kabira Bay, Ishigaki Island" }
@@ -34,9 +34,9 @@ window.SITE_CONFIG = {
       placeholder: "MAIN PHOTO｜川平湾の海（横長）",
     },
     gallery: [
-      { src: "images/stock/gallery-1-hands.jpg", alt: { ja: "マッサージをしている手元", en: "Hands giving a massage" }, placeholder: "PHOTO 1｜マッサージの手元" },
+      { src: "images/salon/gallery-hands-back.jpg", alt: { ja: "タオル越しに背中をほぐす施術の手元", en: "Hands easing the back through a towel" }, placeholder: "PHOTO 1｜マッサージの手元" }, // 実際の店舗写真
       { src: "images/stock/gallery-2-oil.jpg", alt: { ja: "オイルを使った施術でくつろぐ様子", en: "Relaxing during an oil treatment" }, position: "62% 50%", placeholder: "PHOTO 2｜施術中のくつろぎ" },
-      { src: "images/stock/gallery-3-shoulder.jpg", alt: { ja: "肩をやさしくほぐす施術", en: "Gentle shoulder massage" }, placeholder: "PHOTO 3｜施術者の雰囲気" },
+      { src: "images/salon/gallery-therapist-head.jpg", alt: { ja: "セラピストがタオルの上から頭をやさしく包む施術", en: "Our therapist gently holding a guest's head through a towel" }, placeholder: "PHOTO 3｜施術者の雰囲気" }, // 実際の店舗写真
       { src: "images/stock/gallery-4-room.jpg", alt: { ja: "自然光が入る白い室内", en: "A white room in natural light" }, placeholder: "PHOTO 4｜自然光の店内" },
       { src: "images/stock/gallery-5-oil-bottle.jpg", alt: { ja: "オイルのボトルとユーカリ", en: "A bottle of oil with eucalyptus" }, placeholder: "PHOTO 5｜タオル・オイル" },
     ],
