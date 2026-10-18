@@ -1,0 +1,5 @@
+# 開発用・ローカル専用（GitHubには含めない）
+.claude/
+archive/
+.DS_Store
+*.log
